@@ -1,0 +1,98 @@
+body {
+    background-color: #001821;
+    font-family: 'OpenSans';
+    color: #FFFFFF;
+}
+a.logo {
+    position: absolute;
+    width: 85px;
+    height: 36px;
+    left: 390px;
+    top: 29px;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 554px;
+    top: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    }
+.contacts__phone{
+    position: absolute;
+    width: 191px;
+    height: 35px;
+    left: 1340px;
+    top: 26.64px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+    }
+.contacts__workhours{
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    left: 1432px;
+    top: 55.14px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+.hero__header{
+    position: absolute;
+    width: 511px;
+    height: 197px;
+    left: 390px;
+    top: 196px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    display: flex;
+    align-items: flex-end;
+    }
+.hero{
+    display: flex;
+    align-items: center;
+}
+.hero__text{
+    position: absolute;
+    width: 196px;
+    height: 20px;
+    left: 390px;
+    top: 420.5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+.hero__button{
+    position: absolute;
+    width: 168px;
+    height: 55px;
+    left: 390px;
+    top: 474px;
+    background: #F5170E;
+    border-radius: 35px;
+}
+button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    width: 88px;
+    height: 19px;
+    left: 430px;
+    top: 492px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
