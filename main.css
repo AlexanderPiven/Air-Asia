@@ -4,18 +4,22 @@ body {
     color: #FFFFFF;
 }
 a.logo {
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
     width: 85px;
     height: 36px;
     left: 390px;
     top: 29px;
 }
-header{
+.header{
     display: flex;
     align-items: center;
 }
 .menu{
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
     width: 56px;
     height: 19px;
     left: 554px;
@@ -23,10 +27,16 @@ header{
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-
+    }
+    .menu__list{
+        display: flex;
+        flex-direction: row;
+        justify-items: flex-start;
     }
 .contacts__phone{
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
     width: 191px;
     height: 35px;
     left: 1340px;
@@ -34,7 +44,6 @@ header{
     font-weight: 400;
     font-size: 26px;
     line-height: 30px;
-    color: #FFFFFF;
     }
 .contacts__workhours{
     position: absolute;
@@ -95,4 +104,71 @@ button{
     line-height: 16px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.hot-tours{
+    position: absolute;
+    width: 273px;
+    height: 49px;
+    left: 392px;
+    top: 775px;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: flex-end;
+}
+.tours__title_icon{
+    position: absolute;
+    width: 21px;
+    height: 28px;
+    left: 677px;
+    top: 788px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+.tours__wrap{
+    width: 1920px;
+    height: 1202px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+.tours__list{
+    display: flex;
+    flex-direction: column;
+}
+.tour__content{
+    width: 362px;
+    height: 305px;
+    left: 389px;
+    top: 1019px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+}
+.paginator{
+display: block;
+}
+
+.news__title{
+position: absolute;
+width: 325px;
+height: 49px;
+left: 390px;
+top: 1451px;
+font-family: 'OpenSans';
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.icon__list{
+    display: flex;
+    flex-direction: row;
 }
